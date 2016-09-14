@@ -49,7 +49,7 @@
 			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
-	
+	 
 	<dependencyManagement>
 		<!-- Import the maven Spring IO Platform Bill Of Materials (BOM) -->
 		<dependencies>
