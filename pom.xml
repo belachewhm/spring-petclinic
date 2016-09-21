@@ -400,7 +400,8 @@
 							<goal>deploy-file</goal>
 						</goals>
 						<configuration>
-							<file>${project.distributionManagement.snapshotRepository.id}</file>
+							<file>target/petclinc.war</file>
+							<repositoryId>${project.distributionManagement.snapshotRepository.id}</repositoryId>
 							<url>${project.distributionManagement.snapshotRepository.url}</url>
 							<groupId>${project.groupId}</groupId>
 							<artifactId>${project.artifactId}</artifactId>
